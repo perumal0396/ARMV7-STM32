@@ -1,0 +1,10 @@
+define USART_REG_PRINT
+echo *USART2_SR 
+p/z *USART2_SR 
+p/z *USART2_DR   
+p/z *USART2_BRR  
+p/z *USART2_CR1  
+p/z *USART2_CR2  
+p/z *USART2_CR3  
+p/z *USART2_GTPR 
+end
